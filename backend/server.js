@@ -24,7 +24,7 @@ const init = async () => {
        
         handler: {
             directory: { 
-              path: '../build/static'
+              path: './build/static'
             }
           }
     })
