@@ -1,0 +1,24 @@
+.header{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 30px;
+    height: 100px;
+    position: relative;
+}
+.header .userinfo{
+    font-family: "Neucha", sans-serif;
+    font-size: 30px;
+    border: 3px solid;
+    cursor: pointer;
+}
+.header .userpanel ul{
+    background: white;
+    border:3px solid;
+    position:absolute;
+    top: 70px;
+    list-style: none;
+}
+.header .userpanel ul li{
+    list-style: none;
+    cursor: pointer;
+}

@@ -1,0 +1,24 @@
+.postlist-wrapper{
+
+}
+.postlist-wrapper .head{
+    font-size: 28px;
+    /*display: flex;*/
+    /*justify-content: space-around;*/
+}
+.postlist-wrapper .head .title{
+    text-align: left;
+    padding-left: 50px;
+    width: 70%;
+    display: inline-block;
+}
+.postlist-wrapper .head .author{
+    width: 30%;
+    display: inline-block;
+}
+.postlist-wrapper .content{
+    width: 100%;
+    height: 100px;
+    padding-left:20px;
+    text-align: left;
+}

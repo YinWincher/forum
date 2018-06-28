@@ -1,0 +1,115 @@
+use forum;
+db.user.insert([
+   {
+       account:'a1',
+       password:'a1',
+       question:'a1',
+       answer:'a1',
+       dateline:new Date()
+   },
+   {
+       account:'a2',
+       password:'a2',
+       question:'a2',
+       answer:'a2',
+       dateline:new Date()
+   }, 
+   {
+       account:'a3',
+       password:'a3',
+       question:'a3',
+       answer:'a3',
+       dateline:new Date()
+   }, 
+   {
+       account:'a4',
+       password:'a4',
+       question:'a4',
+       answer:'a4',
+       dateline:new Date()
+   },
+   {
+       account:'a5',
+       password:'a5',
+       question:'a5',
+       answer:'a5',
+       dateline:new Date()
+   },
+   {
+       account:'a6',
+       password:'a6',
+       question:'a6',
+       answer:'a6',
+       dateline:new Date()
+   },
+   {
+       account:'a7',
+       password:'a7',
+       question:'a7',
+       answer:'a7',
+       dateline:new Date()
+   } 
+]);
+
+db.post.insert([
+    {
+        postid:1,
+        author:'a1',
+        title:'a1111',
+        contnet:'a1111111',
+        
+    }
+])
+
+db.abc.insert([
+    {
+        postid: 1,
+        reply:[
+            {
+                replyid : 1,
+                content:'123',
+                dateline:new Date(),
+                author:'a1'
+            }
+        ]
+    },
+    {
+        postid: 2,
+        reply:[
+            {
+                replyid : 1,
+                content:'123',
+                dateline:new Date(),
+                author:'a1'
+            }
+        ]
+    },
+    {
+        postid: 3,
+        reply:[
+            {
+                replyid : 1,
+                content:'123',
+                dateline:new Date(),
+                author:'a1'
+            },
+            {
+                replyid : 2,
+                content:'123',
+                dateline:new Date(),
+                author:'a1'
+            }
+        ]
+    },
+    {
+        postid: 4,
+        reply:[
+            {
+                replyid : 1,
+                content:'123',
+                dateline:new Date(),
+                author:'a1'
+            }
+        ]
+    }
+])

@@ -1,0 +1,10 @@
+.publisharea-wrapper{
+    border: 3px solid;
+}
+.publisharea-wrapper textarea{
+    width: 100%;
+    height: 200px;
+}
+.publisharea-wrapper .head{
+    font-size: 30px;
+}

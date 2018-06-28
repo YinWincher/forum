@@ -1,0 +1,48 @@
+.reply{
+    border:1px solid;
+
+}
+.discussionpage-wrapper .message{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.discussionpage-wrapper .author{
+    width: 100px;
+}
+.discussionpage-wrapper .content{
+    height: 50px;
+    text-align: left;
+    padding-left: 30px;
+}
+.discussionpage-wrapper .delete{
+    cursor: pointer;
+}
+.discussionpage-wrapper header{
+    border:2px solid;
+}
+.discussionpage-wrapper header .title{
+    text-align: left;
+    height: 50px;
+    padding-left: 30px ;
+    font-size: 30px;
+}
+.discussionpage-wrapper header .content{
+    text-align: left;
+    height: 60px;
+    padding-left: 50px ;
+    font-size: 22px;
+}
+.discussionpage-wrapper header .author{
+    text-align: right;
+    height: 30px;
+    width: 100%;
+    padding-right: 50px ;
+    font-size: 26px;
+}
+.discussionpage-wrapper header .delete{
+    width: 100%;
+    padding-right: 50px;
+    font-size: 26px;
+    text-align: right;
+    cursor: pointer;
+}
